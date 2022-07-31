@@ -59,3 +59,13 @@ html {
         font-weight: 700;
     }
 }
+
+@media (max-width: 650px) {
+    .contact-paragraph {
+        font-size: 10px;
+    }
+    .contact-header {
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
