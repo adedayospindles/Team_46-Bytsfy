@@ -28,6 +28,10 @@ html {
     padding: 10px 14px;
 }
 
+.map {
+    width: 100%;
+}
+
 #exampleInputEmail1,
 #exampleFormControlSelect1,
 #exampleFormControlTextarea1 {
@@ -58,7 +62,17 @@ html {
 
 @media (max-width: 575.98px) {
     .contact-paragraph {
-        font-size: 10px;
+        font-size: 16px;
+    }
+    .contact-header {
+        font-size: 32px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 650px) {
+    .contact-paragraph {
+        font-size: 16px;
     }
     .contact-header {
         font-size: 32px;
