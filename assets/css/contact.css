@@ -12,6 +12,7 @@ html {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #0E103D;
+    padding-left: 15px;
 }
 
 .contact-paragraph {
@@ -60,22 +61,121 @@ html {
     border: 1px solid #FFC700;
 }
 
-@media (max-width: 575.98px) {
-    .contact-paragraph {
-        font-size: 16px;
-    }
-    .contact-header {
-        font-size: 32px;
-        font-weight: 700;
-    }
+.btn-subscribe1 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0E103D;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 1px solid #0E103D;
+}
+
+
+/*------------------------Tools Section------------------------------*/
+
+.d-flex {
+    margin-left: 30%;
+}
+
+.tools-header {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0E103D;
+    padding-left: 15px;
+}
+
+.choose_file label {
+    display: block;
+    border: 2px dashed #0E103D;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(210% - 50px);
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.choose_file #choose_file {
+    outline: none;
+    opacity: 0;
+    width: 0;
+}
+
+.choose_file label:hover span {
+    text-decoration: underline;
+}
+
+.btn-files {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0E103D;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 8px;
+    padding: 10px 16px;
+    border: 1px solid #0E103D;
+}
+
+.split-bg {
+    background-color: #74C0FC;
+}
+
+.divider {
+    background-color: #0E103D;
+    border: 2px solid #0E103D;
+}
+
+.Split-text_header {
+    font-weight: 700;
+    color: #0E103D;
+    margin: 25px 0 25px 50px;
+}
+
+.Split-text_item {
+    margin: 25px 0 25px 50px;
 }
 
 @media (max-width: 650px) {
+    /*------------------------contact Section------------------------------*/
     .contact-paragraph {
         font-size: 16px;
     }
     .contact-header {
         font-size: 32px;
         font-weight: 700;
+    }
+    /*------------------------Tools Section------------------------------*/
+    .d-flex {
+        flex-direction: column;
+    }
+    #split-icon {
+        width: 25%;
+        height: 25%;
+        margin: 0 0 5% 15%;
+    }
+    .tools-header {
+        font-size: 32px;
+        margin: 0 0 5% -47%;
+    }
+    /*------------------------split Section------------------------------*/
+    .choose_file label {
+        display: block;
+        width: calc(100% - 50px);
+        margin: auto;
+        text-align: center;
+        cursor: pointer;
+        background-color: #fff;
+    }
+    .Split-text_header {
+        margin: 5px 0 25px 15px;
+        font-size: 20px;
+    }
+    .Split-text_item {
+        margin: 5px 0 0 5px;
+    }
+    .Split-option_header {
+        font-size: 20px;
     }
 }
