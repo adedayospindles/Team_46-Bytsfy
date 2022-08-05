@@ -204,7 +204,7 @@ html {
     color: #fff;
     font-weight: 600;
     width: 12%;
-    height: 8vh;
+    height: 6vh;
     border: 1px solid #0E103D;
     border-radius: 5px;
 }
@@ -461,9 +461,11 @@ ul a:hover {
         border: 1px solid #0E103D;
         border-radius: 5px;
     }
-    .dummy-profile {
-        width: 150px;
-        height: 150px;
-        padding-right: 5px;
+    .Profile-name {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .Profile-email {
+        font-size: 12px;
     }
 }
