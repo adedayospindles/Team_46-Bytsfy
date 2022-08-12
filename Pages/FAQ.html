@@ -20,21 +20,22 @@
 
 <body>
     <!------------------------------Navbar Section------------------------------->
+    <!------------------------------Navbar Section------------------------------->
     <header class="container-fluid">
         <nav class="navbar navbar-expand-lg bg-white pt-3 mb-1 ml-lg-3 mr-lg-3">
             <div class="container">
-                <a class="navbar-brand" href="./home2.html"><img src="../assets/img/logo.svg" alt="nav-logo"></a>
+                <a class="navbar-brand" href="./Home_page.html"><img src="../assets/img/logo.svg" alt="nav-logo"></a>
                 <button class="navbar-toggler mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class=""> <i class="fa-solid fa-align-right nav-icon"></i></span></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-ul">
                         <li class="nav-item nav-items">
-                            <a class="nav-link " aria-current="page" href="./home2.html">Home</a>
+                            <a class="nav-link " aria-current="page" href="./Landing_page.html">Home</a>
                         </li>
 
                         <li class="nav-item dropdown nav-items">
-                            <a class="nav-link dropdown-toggle" href="./ResourcePGs/resourcepg.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Resources
                             </a>
                             <ul class="dropdown-menu dropdown1">
@@ -44,38 +45,19 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown nav-items">
-                            <a class="nav-link dropdown-toggle" href="./FileUpload.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Tools
                             </a>
                             <div class="dropdown-menu dropdown1 wide-nav ">
                                 <div class="row ">
-                                    <div class="col-lg-3 col-sm-12 col-md-12 text-sm-center">
+                                    <div class="text-center">
                                         <h5 class="text-center"><strong>Split Files</strong></h5>
-                                        <a class="btn btn-light dropdown-item text-center" href="./FileUpload.html">Upload Files</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="./splitbyLine.html">Split by
-                                                line</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="./splitbySize.html">Split by
-                                                size</a>
+                                        <a class="dropdown-item text-center" href="./FileUpload.html">Upload Files</a>
+                                        <a class="dropdown-item text-center" href="./CSV.html">Chunk by CSV
+                                            </a>
+                                        <a class="dropdown-item text-center" href="./JSON.html">Chunk by JSON</a>
                                     </div>
-                                    <div class="col-lg-3 col-sm-12 col-md-12 text-sm-center">
-                                        <h5 class="text-center"><strong>Convert Files</strong></h5>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Upload Files</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Convert CSV to
-                                                JSON</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Convert JSON to
-                                                CSV</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Convert CSV to
-                                                Others</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Convert JSON to
-                                                Others</a>
 
-                                    </div>
-                                    <div class="col-lg-3 col-sm-12 col-md-12">
-                                        <h5 class="text-center"><strong>Compress Files</strong></h5>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Upload Files</a>
-                                        <a class="btn btn-light dropdown-item text-center" href="#">Compress by
-                                                size</a>
-                                    </div>
                                 </div>
                             </div>
 
@@ -92,8 +74,16 @@
                                 <div class="m-4"><a href="./profile.html" class="nav-link2">Profile</a></div>
                                 <div class="m-4"><a href="./Dashboard.html" class="nav-link2">Saved Items</a></div>
 
-                                <div class=""><button href="./Sign_In.html" class="btn btn-subscribe1 m-3"><span><i class="fa-solid fa-right-from-bracket"></i></span>
-                                Logout</button></div>
+                                <div class="">
+
+                                    <a href="./Sign_In.html">
+                                        <button href="./Sign_In.html" class="btn btn-subscribe1 m-3">
+                                            <span>
+                                                <i class="fa-solid fa-right-from-bracket"></i>
+                                            </span>
+                                Logout</button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -110,12 +100,12 @@
                     <p>Search our database for answers</p>
                 </div>
                 <div class="col">
-                    <div class="topnav">
-                        <div class="search-container">
-                            <form action="/action_page.php">
-                                <input type="text" placeholder="Search.." name="search">
-                                <button type="submit"><i class="fa fa-search "></i></button>
-                            </form>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search this blog">
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button">
+                                        <i class="fa fa-search"></i>
+                                    </button>
                         </div>
                     </div>
                 </div>

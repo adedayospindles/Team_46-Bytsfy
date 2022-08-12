@@ -98,6 +98,27 @@ html {
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
+    .signup-p {
+        color: #091540;
+    }
+    .signup-p:hover {
+        color: #fff;
+        background-color: #091540;
+    }
+    #nav-btn1:hover {
+        background-color: #0E103D;
+        font-weight: 600;
+        border: 1px solid #0E103D;
+        width: 28vw;
+        height: 19vh;
+        color: #fff;
+    }
+    #nav-btn1 {
+        color: #0E103D;
+        width: 28vw !important;
+        height: 8vh !important;
+        padding: 8px;
+    }
 }
 
 
@@ -208,7 +229,8 @@ html {
     height: 6vh;
 }
 
-#nav-btn1 {
+
+/* #nav-btn1 {
     color: #0E103D;
     font-weight: 600;
 }
@@ -219,6 +241,32 @@ html {
     border: 1px solid #0E103D;
     width: 8vw;
     height: 6vh;
+} */
+
+#nav-btn1 {
+    color: #0E103D;
+    font-weight: 600;
+    border: 1px solid #0E103D;
+    width: 8vw;
+    height: 6vh;
+}
+
+#signup-p {
+    color: #0E103D;
+}
+
+.signup-p:hover {
+    color: #fff;
+    background-color: #091540;
+}
+
+#nav-btn1:hover {
+    background-color: #0E103D;
+    font-weight: 600;
+    border: 1px solid #0E103D;
+    width: 8vw;
+    height: 6vh;
+    color: #fff;
 }
 
 
@@ -536,6 +584,114 @@ html {
 }
 
 
+/*------------------------API Page------------------------------*/
+
+
+/* .has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+} */
+
+.bytsfy_guide .bytsfy_guide1 {
+    width: 40%;
+}
+
+.bytsfy_guide h4 {
+    color: #555555;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.doc_input input {
+    width: 60%;
+    font-family: "Mulish", sans-serif;
+    background-color: #ececf8;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 38px;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.doc_input .fa-search {
+    position: absolute;
+    top: 61.8px;
+    padding: 15.5px;
+    background-color: #ececf8;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.Doc_table_data1 h4 {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 15x;
+    font-weight: 700;
+    font-size: large;
+    /* color: #091540; */
+    /* padding-bottom: 20px; */
+}
+
+.API-header {
+    margin: 48px 0 24px 0;
+    font-weight: 700;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.Doc_table_data2 h3 {
+    font-family: "Montserrat", sans-serif;
+    padding-top: 50px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.bytfy-guide {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.API-List a {
+    list-style: none;
+    text-decoration: none;
+    color: #142a7a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+
 /*------------------------Tools Page------------------------------*/
 
 .tools-page {
@@ -760,7 +916,7 @@ html {
 /*----------------------Profile Page----------------------------*/
 
 .Profile {
-    background-color: #D1EAFE;
+    background-color: #F8F8F8;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 12px #D1EAFE;
@@ -792,8 +948,35 @@ html {
 
 .Profile-name {
     color: #0E103D;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+#alert-body {
+    border: 1px solid#0DC00A;
+    background-color: #fff;
+    color: #0DC00A;
+}
+
+.user-edit {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-header {
+    color: #091540;
+    font-weight: 700;
+}
+
+.name-p {
+    color: #555555;
+    font-weight: 500;
+}
+
+.user-edit1 {
+    margin-left: 90%;
+    color: #091540;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .Profile-email {
@@ -1217,14 +1400,14 @@ ul a:hover {
     .p-head {
         font-size: 12px;
     }
-    #nav-btn1 {
+    /* #nav-btn1 {
         color: #0E103D;
         font-weight: 600;
     }
     #nav-btn1:hover {
         width: 28vw;
         height: 8vh;
-    }
+    } */
     .nav-ul {
         margin-left: -2%;
     }
@@ -1306,10 +1489,6 @@ ul a:hover {
         display: flex;
         flex-direction: column;
     }
-    /* .whole_section .signin_image,
-  .signup_image {
-    align-content: center;
-  } */
     .signin_image img,
     .signup_image img {
         /* width: 60%; */
