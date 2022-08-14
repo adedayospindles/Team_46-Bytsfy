@@ -1124,10 +1124,6 @@
     }
     /*-------------------Testimonial Page-------------------------*/
     
-    .feature-btn1 {
-        margin: 1% 0 0 36% !important;
-    }
-    
     .testimonials h1,
     .testimonials h3,
     .testimonials p,
@@ -1241,9 +1237,6 @@
             display: flex;
             align-items: center;
         }
-        .feature-btn1 {
-            margin-left: -20%;
-        }
         .s2-testimonials .image-left img {
             margin-right: 25px;
             float: left;
@@ -1278,7 +1271,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         color: #fff;
-        background-color: #FFC700;
+        background-color: #091540;
         position: relative;
         color: #fff;
     }
