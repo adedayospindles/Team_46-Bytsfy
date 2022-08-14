@@ -1153,7 +1153,7 @@
         text-align: center;
         padding: 20px;
         margin-bottom: 50px;
-        opacity: .2;
+        opacity: .8; /* Increased opacity for the side testimonials */
         -webkit-transform: scale3d(0.8, 0.8, 1);
         transform: scale3d(0.8, 0.8, 1);
         -webkit-transition: all 0.3s ease-in-out;
