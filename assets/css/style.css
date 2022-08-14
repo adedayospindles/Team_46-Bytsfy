@@ -349,6 +349,24 @@
     .team-paragraph {
         color: #cccccc;
     }
+    
+    .teams-header {
+        color: #0E103D;
+    }
+    
+    .team-small {
+        font-weight: 600;
+        font-size: 16px;
+    }
+    
+    .team-img {
+        border-radius: 10px;
+        -webkit-box-shadow: -1px 3px 12px -3px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -1px 3px 12px -3px rgba(0, 0, 0, 0.75);
+        box-shadow: -1px 3px 12px -3px rgba(0, 0, 0, 0.75);
+        width: 100%;
+        height: 120%;
+    }
     /*----------faqs section---------------*/
     
     .q-form {
