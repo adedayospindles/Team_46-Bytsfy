@@ -1,4 +1,3 @@
-
 // Select all checkboxes: Line 120 - 134 on dashboard.html
 
 function toggle(boxcontrol, selector) {
@@ -15,22 +14,21 @@ function toggle(boxcontrol, selector) {
 }
 
 
- // Basic See More Button: line 493 - 496 on saved_files.html
+// Basic See More Button: line 493 - 496 on saved_files.html
 
- let button = document.getElementById('seeMore');
- let content = document.getElementById('contentDiv');
- content.className = 'hideContent';
+let button = document.getElementById('seeMore');
+let content = document.getElementById('contentDiv');
+content.className = 'hideContent';
 
- button.addEventListener('click', function() {
-    
-     if (content.className === 'hideContent') {
+button.addEventListener('click', function() {
+
+    if (content.className === 'hideContent') {
         // content.classList.remove('hideContent');
-         content.className = 'showContent';
-         button.textContent = 'Show less';
-     } else {
-         content.className = 'hideContent';
-         button.textContent = 'See more';
-     }
+        content.className = 'showContent';
+        button.textContent = 'Show less';
+    } else {
+        content.className = 'hideContent';
+        button.textContent = 'See more';
+    }
 
- });
-
+});
